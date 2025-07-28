@@ -1,5 +1,17 @@
 function App() {
-  return <div>Your code here</div>;
+  return (
+    <div>
+      <h1>Hi, I'm Derrick</h1>
+      <img
+        src="https://via.placeholder.com/150"
+        alt="Photo of Derrick"
+      />
+      <h2>About Me</h2>
+      <p>I am a software developer passionate about building web applications.</p>
+      <a href="https://github.com/your-username">GitHub</a>
+      <a href="https://linkedin.com/in/your-profile">LinkedIn</a>
+    </div>
+  );
 }
 
 export default App;
